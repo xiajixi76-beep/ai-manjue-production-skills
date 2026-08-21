@@ -9,7 +9,7 @@ description: 将故事或剧本推进为可执行的 AI 漫剧生产包。只要
 
 ## 本地 Z-Image-Turbo 后端
 
-本机环境：`H:\ComfyUI\ComfyUI_Mie_2026_V8.0`，启动 `run_nvidia_gpu.bat`，界面 `http://127.0.0.1:8188`。
+本地环境：`<COMFYUI_ROOT>`，启动对应的 GPU 启动脚本，界面通常为 `http://127.0.0.1:8188`。
 
 - 主模型：`ComfyUI\models\diffusion_models\z-image-turbo-fp8-e4m3fn.safetensors`
 - VAE：`ComfyUI\models\vae\ae.safetensors`
@@ -97,7 +97,7 @@ description: 将故事或剧本推进为可执行的 AI 漫剧生产包。只要
 
 默认使用：
 
-`H:\ComfyUI\MiniMax-H3\workflows\video_minimax_h3_i2v_seedvr2_hd_8gb_v2.json`
+`<MINIMAX_H3_ROOT>\workflows\video_minimax_h3_i2v_seedvr2_hd_8gb_v2.json`
 
 执行规则：
 

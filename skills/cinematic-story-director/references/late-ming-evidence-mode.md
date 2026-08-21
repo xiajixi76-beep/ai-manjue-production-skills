@@ -29,9 +29,9 @@
 
 优先使用用户现有资料：
 
-- 总索引：`C:\Users\90605\Documents\Codex\aigc-assets\ming-history\INDEX.md`
-- 《甲申：余烬之末》项目规则：`E:\JiashenLastEmber\AGENTS.md`
-- 已完成的六场景研究摘要：`E:\JiashenLastEmber\docs\research\2026-07-14-gallery-historical-references.md`
+- 总索引：`<MING_HISTORY_ROOT>\INDEX.md`
+- 《甲申：余烬之末》项目规则：`<JIASHEN_PROJECT_ROOT>\AGENTS.md`
+- 已完成的六场景研究摘要：`<JIASHEN_PROJECT_ROOT>\docs\research\2026-07-14-gallery-historical-references.md`
 
 按问题类型选择材料，不机械套用一个总排名：
 
