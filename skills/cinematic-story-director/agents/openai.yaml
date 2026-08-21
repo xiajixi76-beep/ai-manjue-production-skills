@@ -1,0 +1,4 @@
+interface:
+  display_name: "叙事镜头导演"
+  short_description: "把故事转成有动机、可生成、可验收的电影叙事镜头"
+  default_prompt: "使用 $cinematic-story-director 把这段故事设计成可直接生成的叙事镜头，并说明镜头为何成立。"

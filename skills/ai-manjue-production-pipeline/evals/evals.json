@@ -1,0 +1,25 @@
+{
+  "skill_name": "ai-manjue-production-pipeline",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我有一个古风短故事，想做成 8 个镜头的 AI 漫剧，先给我完整生产流程和第一阶段需要确认的内容。",
+      "expected_output": "先输出剧本阶段与人物资产候选阶段，明确不跳过用户确认，不直接生成视频。"
+    },
+    {
+      "id": 2,
+      "prompt": "我已经选好人物和分镜首帧，接下来用 MiniMax H3 做图生视频，8GB 显存怎么走？",
+      "expected_output": "进入故事板和 H3 + SeedVR2 流程，使用指定 8GB 工作流、原生音频和逐镜头质检。"
+    },
+    {
+      "id": 3,
+      "prompt": "帮我生成一组电影感 AI 漫剧分镜图提示词。",
+      "expected_output": "调用 cinematic-image2-spec，输出导演意图、摄影规格、Image 2 提示词、约束和重试旋钮。"
+    },
+    {
+      "id": 4,
+      "prompt": "我想用本地 Z-Image-Turbo 批量生成角色资产和分镜首帧，再交给 MiniMax H3，怎么走？",
+      "expected_output": "把 Z-Image-Turbo 作为图片后端，说明本地 ComfyUI 工作流、候选审核和图生图一致性，再统一进入故事板、H3 原生画面声音和 SeedVR2；不能把 Z-Image 当成视频生成器。"
+    }
+  ]
+}
