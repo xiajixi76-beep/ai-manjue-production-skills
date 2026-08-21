@@ -56,5 +56,4 @@ Skill 会输出：
 
 ## 本机位置
 
-`C:\Users\90605\.codex\skills\cinematic-image2-spec`
-
+`~/.codex/skills/cinematic-image2-spec`

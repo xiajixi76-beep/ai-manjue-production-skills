@@ -45,5 +45,4 @@
 
 ## 本机位置
 
-`C:\Users\90605\.codex\skills\cinematic-story-director`
-
+`~/.codex/skills/cinematic-story-director`
